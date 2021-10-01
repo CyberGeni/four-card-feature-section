@@ -17,27 +17,28 @@ body {
     max-width: 500px;
     margin: auto;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 50px;
     width: 75%;
     font-size: 3em;
 }
 .first-heading {
-    font-size: 1em;
+    font-size: 23px;
     color: hsl(229, 6%, 66%);
     font-weight: 300;
 }
 .second-heading {
     color: hsl(234, 12%, 34%);
-    font-size: 1em;
+    font-size: 23px;
     font-weight: 600;
     display: flex;
+    justify-content: center;
 }
 .third-heading {
     display: flex;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     color: hsl(229, 6%, 66%);
-    margin-bottom: 140px;
+    margin-bottom: 50px;
 }
 .card {
     display: flex;
@@ -59,11 +60,11 @@ svg {
     margin-top: auto;
 }
 h3 {
-    font-size: 30px;
+    font-size: 23px;
     color: hsl(234, 12%, 34%);
 }
 p {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 15px;
     line-height: 30px;
     letter-spacing: 0.5px;
