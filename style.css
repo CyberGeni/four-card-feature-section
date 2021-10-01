@@ -11,22 +11,24 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
+    font-size: 10px;
 }
 .header {
-    max-width: 600px;
+    max-width: 500px;
     margin: auto;
     text-align: center;
     margin-top: 140px;
-    width: 500px;
+    width: 75%;
+    font-size: 3em;
 }
 .first-heading {
-    font-size: 40px;
+    font-size: 1em;
     color: hsl(229, 6%, 66%);
     font-weight: 300;
 }
 .second-heading {
     color: hsl(234, 12%, 34%);
-    font-size: 40px;
+    font-size: 1em;
     font-weight: 600;
     display: flex;
 }
@@ -40,8 +42,9 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    width: 520px;
-    height: 350px;
+    width: 75%;
+    max-width: 500px;
+    height: 300px;
     margin: auto;
     padding: 35px;
     box-shadow: 0 10px 50px #ccc;
