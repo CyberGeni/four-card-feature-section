@@ -22,20 +22,20 @@ body {
     font-size: 3em;
 }
 .first-heading {
-    font-size: 23px;
+    font-size: 21px;
     color: hsl(229, 6%, 66%);
     font-weight: 300;
 }
 .second-heading {
     color: hsl(234, 12%, 34%);
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 600;
     display: flex;
     justify-content: center;
 }
 .third-heading {
     display: flex;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: hsl(229, 6%, 66%);
     margin-bottom: 50px;
@@ -43,7 +43,7 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 80%;
     max-width: 500px;
     height: 300px;
     margin: auto;
