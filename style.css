@@ -1,0 +1,68 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    margin-top: 140px;
+    width: 500px;
+}
+.first-heading {
+    font-size: 40px;
+    color: hsl(229, 6%, 66%);
+    font-weight: 300;
+}
+.second-heading {
+    color: hsl(234, 12%, 34%);
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+}
+.third-heading {
+    display: flex;
+    font-size: 25px;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    margin-bottom: 140px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    height: 350px;
+    margin: auto;
+    padding: 35px;
+    box-shadow: 0 10px 50px #ccc;
+    margin-top: 35px;
+    border-radius: 8px;
+    border: 2px green;
+}
+svg {
+    display: flex;
+    height: auto;
+    align-self: self-end;
+    margin-top: auto;
+}
+h3 {
+    font-size: 30px;
+    color: hsl(234, 12%, 34%);
+}
+p {
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: hsl(229, 6%, 66%);
+}
