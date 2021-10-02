@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
 }
 body {
     display: flex;
@@ -43,15 +42,25 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    width: 80%;
-    max-width: 500px;
-    height: 300px;
+    width: 70%;
+    max-width: 400px;
+    height: 250px;
     margin: auto;
+    margin-bottom: 35px;
     padding: 35px;
     box-shadow: 0 10px 50px #ccc;
-    margin-top: 35px;
     border-radius: 8px;
-    border: 2px green;
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+.card2 {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+.card3 {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+.card4 {
+    border-top: 4px solid hsl(212, 86%, 64%);
+
 }
 svg {
     display: flex;
@@ -64,9 +73,34 @@ h3 {
     color: hsl(234, 12%, 34%);
 }
 p {
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 15px;
     line-height: 30px;
     letter-spacing: 0.5px;
     color: hsl(229, 6%, 66%);
+}
+@media screen and (min-width: 980px) {
+    .card {
+        height: 200px;
+        width: 250px;
+        margin: auto;
+        margin
+    }
+    .card1 {
+        margin-right: 30px;
+    }
+    .card2 {
+        margin-bottom: 30px;
+    }
+    .card4 {
+        margin-left: 30px;
+    }
+    .main-card {
+        display: flex;
+        flex-direction: row;
+    }
+    .card .middle-card {
+        display: flex;
+        flex-direction: column;
+    }
 }
